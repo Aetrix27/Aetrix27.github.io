@@ -1,6 +1,9 @@
-name = David Guerrero> :computer:
+name = David Guerrero :computer:
 
 Programming Languages 🌐
+
+Github Stats
+![David's github stats](https://github-readme-stats.vercel.app/api?username=aetrix27)
 
 <table>
   <tbody>
@@ -30,6 +33,3 @@ Programming Languages 🌐
     </tr>
   </tbody>
 </table>
-
-#Github Stats
-![David's github stats](https://github-readme-stats.vercel.app/api?username=aetrix27)
