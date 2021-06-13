@@ -1,9 +1,7 @@
 <h1>name = David Guerrero :computer:</h1>
+![David's github stats](https://github-readme-stats.vercel.app/api?username=aetrix27)
 
 Programming Languages 🌐
-
-<h2>Github Stats</h2>
-![David's github stats](https://github-readme-stats.vercel.app/api?username=aetrix27)
 
 <table>
   <tbody>
