@@ -1,8 +1,8 @@
-name = David Guerrero :computer:
+<h1>name = David Guerrero :computer:</h1>
 
 Programming Languages 🌐
 
-Github Stats
+<h2>Github Stats</h2>
 ![David's github stats](https://github-readme-stats.vercel.app/api?username=aetrix27)
 
 <table>
