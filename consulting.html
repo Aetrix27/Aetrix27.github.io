@@ -1,0 +1,76 @@
+   <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>David's Portfolio</title>
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- BOOTSTRAP THEME (Downloaded from Themes website)-->
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <!-- CUSTOM STYLES -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+   <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <a class="navbar-brand text-white" href="index.html">David's Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+       
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="index.html">Product/Tech Projects <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="consulting.html">Consulting Case Studies <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="resume.html">Resumé</a>
+                </li>
+            
+            </ul>
+
+        </div>
+    </nav>
+    <div></div>
+   <div class ="card">
+
+    <h1 class="jumbotron text-center" style="margin-top: 25px;">Software Projects</h1>
+       <div class="container mb-5 mt-5" data-aos = "fade-down">
+
+        <div class="text-center">
+            <h3 class="m2">Halo Videogame Product Requirements Document (PRD)</h3>
+        </div>
+
+        <div class="row text-center">
+            <p> This is a a case study for Pebble Time, which I created as a personal passion project. 
+                It includes the timeline, diagnosis and strategy of the project and why it failed as well as how it could be improved.
+
+            </p>
+            <div class="container">
+                <img src="pebble.avif" id = "bigPicture"/>
+            </div>
+            <div>Link: <a href="https://docs.google.com/document/d/1NWVLYWOlD6YF9sQKyB1Hu8BGAUGCxktQAK1BYdSawDg/edit?usp=sharing">Pebble Time Case Study</a></div>
+
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
